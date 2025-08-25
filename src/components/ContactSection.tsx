@@ -86,14 +86,6 @@ const ContactSection = () => {
             </Button>
           </Card>
         </div>
-
-        {/* Visitors counter */}
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-card/50 backdrop-blur-sm rounded-full border border-primary/20">
-            <span className="text-sm text-muted-foreground">Visitors:</span>
-            <span className="text-sm font-bold text-primary">309+</span>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -34,7 +34,7 @@ const HeroSection = () => {
         </Badge>
         
         <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-          I'm Suraj
+          I'm Suraj Suthar
         </h1>
         
         <div className="h-16 mb-8">
@@ -44,25 +44,53 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <div className="space-y-4 mb-8">
-          <div className="flex items-center justify-center gap-2 text-lg">
-            <span className="text-2xl">🚀</span>
-            <span>I'm currently working on <span className="text-primary font-semibold">CI/CD pipelines</span></span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8 max-w-4xl mx-auto">
+          <div className="group p-4 rounded-xl bg-card/30 backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-2xl group-hover:animate-pulse">
+                🚀
+              </div>
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Currently working on</p>
+                <p className="text-lg font-semibold text-primary">CI/CD pipelines</p>
+              </div>
+            </div>
           </div>
           
-          <div className="flex items-center justify-center gap-2 text-lg">
-            <span className="text-2xl">🌱</span>
-            <span>I'm currently learning <span className="text-accent font-semibold">Kubernetes</span></span>
+          <div className="group p-4 rounded-xl bg-card/30 backdrop-blur-sm border border-accent/20 hover:border-accent/40 transition-all duration-300 hover:scale-105">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-2xl group-hover:animate-pulse">
+                🌱
+              </div>
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Currently learning</p>
+                <p className="text-lg font-semibold text-accent">Kubernetes</p>
+              </div>
+            </div>
           </div>
           
-          <div className="flex items-center justify-center gap-2 text-lg">
-            <span className="text-2xl">💬</span>
-            <span>Ask me about <span className="text-primary font-semibold">Ansible, Docker</span>... or anything!</span>
+          <div className="group p-4 rounded-xl bg-card/30 backdrop-blur-sm border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-2xl group-hover:animate-pulse">
+                💬
+              </div>
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Ask me about</p>
+                <p className="text-lg font-semibold text-primary">Ansible, Docker... anything!</p>
+              </div>
+            </div>
           </div>
           
-          <div className="flex items-center justify-center gap-2 text-lg">
-            <span className="text-2xl">⚡</span>
-            <span>Fun fact: I'm listening to <span className="text-accent font-semibold">🎵 music</span></span>
+          <div className="group p-4 rounded-xl bg-card/30 backdrop-blur-sm border border-accent/20 hover:border-accent/40 transition-all duration-300 hover:scale-105">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center text-2xl group-hover:animate-pulse">
+                ⚡
+              </div>
+              <div className="text-left">
+                <p className="text-sm text-muted-foreground">Fun fact</p>
+                <p className="text-lg font-semibold text-accent">Listening to 🎵 music</p>
+              </div>
+            </div>
           </div>
         </div>
 
