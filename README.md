@@ -70,7 +70,6 @@ I enjoy building scalable systems that are observable, automated and easy to mai
 
 ```text
                    Trading Servers
-          (NSE • BSE • MCX Servers)
                      │
                      ▼
              Latency Log Files
